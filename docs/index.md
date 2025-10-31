@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Hello Project"
+  name: "My Fablab Project"
   text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: my personal assignment
   actions:
     - theme: brand
       text: Markdown Examples
