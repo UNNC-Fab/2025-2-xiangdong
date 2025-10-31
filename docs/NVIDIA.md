@@ -7,7 +7,7 @@ General-Purpose GPU Computing	C/C++, Fortran, Python	CUDA Toolkit, NVIDIA HPC SD
 Artificial Intelligence & Deep Learning	Python (dominant), C/C++	CUDA, cuDNN, TensorRT, PyTorch, TensorFlow
 Edge Computing	C/C++ (performance-critical), Python (rapid development)	JetPack SDK (for Jetson series), TensorRT
 Graphics & Visual Computing	C/C++	OptiX Ray Tracing Engine, DirectX, OpenGL, Vulkan
-🔧 Core Tools & Ecosystem
+Core Tools & Ecosystem
 
 NVIDIA's strength lies not only in its hardware but also in the comprehensive software ecosystem it has built.
 
