@@ -19,7 +19,7 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'OpenSource-LIcense', link: '/OpenSource-LIcense' },
-          { text: 'NVIDIA', link: '/nvidia' }
+          { text: 'NVIDIA', link: '/NVIDIA' }
         ]
       }
     ],
