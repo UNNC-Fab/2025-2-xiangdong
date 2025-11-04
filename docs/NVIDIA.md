@@ -29,5 +29,5 @@
 :TensorRT: An SDK for high-performance deep learning inference.
 
 In summary, NVIDIA's development mainly focuses on C/C++ and Python. On the CUDA foundation platform, it uses tools such as Nsight for development and debugging, and selects corresponding SDKS based on different fields (HPC, AI, edge).
-
+'''
 Learn more about the [CUDA](https://www.nvidia.com/zh-tw/technologies/cuda-x/)
