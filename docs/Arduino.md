@@ -42,9 +42,9 @@ void loop()
 Definition of the Sandplay Therapy
 
 ### 1.Licheepi
-```
+
 "LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost
-```
+
 ### 2.Core features and application scenarios
 
 | Aspect | Description |
