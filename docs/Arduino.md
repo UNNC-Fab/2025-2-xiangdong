@@ -36,10 +36,38 @@ void loop()
    }
 }
 ```
+
+### Sandplay Therapy Projects
+
+Definition of the Sandplay Therapy
+
 ### 1.Licheepi
+```
+"LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost
+```
+### 2.Core features and application scenarios
+
+| Aspect | Description |
+| :--- | :--- |
+| **Product Positioning** | An open-source single-board computer, similar to Raspberry Pi, but more focused on **low-level system development** and **hardware customization**. |
+| **Core Hardware** | Typically uses **Allwinner Technology's ARM architecture processors**. For example, the Lichee Nano model uses the F1C100s chip, which integrates CPU and memory, and offers a rich set of interfaces. |
+| **Software Ecosystem** | Supports running **mainline Linux kernel**, as well as some real-time operating systems (such as RT-Thread) or bare-metal programs (like Xboot). Software resources are typically open-sourced in the official community. |
+| **Primary Applications** | Suitable for **embedded product prototyping**, **industrial control**, **academic research**, and serves as an excellent platform for learners to deeply understand **Linux kernel, Bootloader, and file systems**. |
+
+
 ## The basic of Arduino
+
+Definition:Arduino is an open-source electronic prototyping platform that enables ordinary people to easily create interactive electronic projects.
+
+You can think of it as the "Lego" or "universal toolbox" of the electronic world. It consists of two parts:
+
+1.Hardware (circuit board): A microcontroller board, which is equivalent to the brain of the project.
+2.Software (IDE) : A computer software used to program the "brain".
+
+![The interfacr of arduino](![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/666.png))
 
 ## input & output
 
-'''md
-'''
+```md
+```
+```
