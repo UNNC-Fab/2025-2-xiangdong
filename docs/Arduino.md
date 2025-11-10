@@ -37,13 +37,26 @@ void loop()
 }
 ```
 
+![RUN WATER LIGHT](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8c0f8230c2fe83d4e1c89e2bcc4715ba.jpg)
+
 ### Sandplay Therapy Projects
 
-Definition of the Sandplay Therapy
+Definition of the Sandplay Therapy:
+
+The core of the psychological sand table is "a free and protected space". In this space, visitors (whether children or adults) do not need to express themselves through complex language. Instead, they use sand, water and thousands of small objects (such as people, animals, buildings, trees, symbols, etc.) to create a "world" of their own under the accompaniment of a counselor.
+
+### How Does Sandplay Therapy Work?
+
+The theoretical foundation behind it primarily stems from Jungian analytical psychology and the concept of the "self-healing tendency of the psyche."
+
+1.  **Non-Verbal Communication:** It bypasses the defenses and limitations of language. It is particularly suitable for children who are not adept at verbal expression, individuals who have experienced trauma and find it difficult to talk about it, or adults facing challenges in verbal communication.
+2.  **Symbolism and Projection:** Every object and every scene in the sandtray is a symbolic expression of the client's inner emotions, conflicts, desires, and various aspects of their personality. The client **projects** their unconscious content into the sandtray world.
+3.  **Connecting the Conscious and the Unconscious:** Through the act of creating with their hands in the sand, a bridge is built between the conscious and the unconscious. Repressed complexes and unrealized potentials can surface and integrate within the sandtray.
+4.  **Self-Healing:** Within the safe and protected space, the process of individuation (becoming one's complete self) is activated. By constructing and adjusting the sandtray scenes, the client is essentially engaging in an internal process of self-sorting and healing.
 
 ### 1.Licheepi
 
-"LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost
+"LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost.
 
 ### 2.Core features and application scenarios
 
@@ -64,10 +77,109 @@ You can think of it as the "Lego" or "universal toolbox" of the electronic world
 1.Hardware (circuit board): A microcontroller board, which is equivalent to the brain of the project.
 2.Software (IDE) : A computer software used to program the "brain".
 
-![The interfacr of arduino](![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/666.png))
+### What Can Arduino Be Used For?
 
-## input & output
+Its applications are almost endless. Here are some examples:
 
-```md
-```
-```
+* Beginner/Educational: Blinking LED lights, controlling servo motors, simple thermometers.
+
+* Smart Home: Automatic plant watering systems, smart lighting control, door/window alarm sensors.
+
+* Robotics: Line-following cars, robotic arms, the control core for quadcopters (drones).
+
+* Interactive Art: Interactive installations that change lights and music based on human movement.
+
+* 3D Printers/CNC: The control boards for many desktop 3D printers are based on Arduino.
+
+* Wearable Devices: Light-up clothing, smartwatch prototypes.
+
+![The interface of arduino](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/666.png)
+
+
+## INPUT & OUTPUT PROJECTS
+
+####  Arduino Smoke Sensor
+
+My code for the Arduino project will be shown below with commentation:
+'''
+/*
+   MQ-2烟雾传感器的使用
+*/
+#include <Arduino.h>
+
+#define Sensor_AO A0
+#define Sensor_DO 2
+
+unsigned int sensorValue = 0;
+
+void setup()
+{
+  pinMode(Sensor_DO, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  sensorValue = analogRead(Sensor_AO);
+  Serial.print("Sensor AD Value = ");
+  Serial.println(sensorValue);
+
+  if (digitalRead(Sensor_DO) == LOW)
+  {
+    Serial.println("Alarm!");
+  }
+  delay(1000);
+}
+
+'''
+
+![Arduino Smoke Sensor Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110225737_72_348.png)
+
+![Arduino Smoke Sensor](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232611_75_348.jpg)
+
+
+####  Arduino Digital Tube
+
+My code for the Arduino project will be shown below with commentation:
+
+/*
+ * SevSegFour
+ * 驱动四位数码管显示0到9999
+ */
+#include "SevSeg.h"
+
+SevSeg sevseg;
+
+byte numDigits = 4; //数码管位数
+byte digitPins[] = {2, 3, 12, 13}; //数码管公共极连接Arduino的引脚
+byte segmentPins[] = {7, 6, 5, 10, 11, 8, 9, 4}; //数码管a,b,c,d,e,f,g,dp对应引脚
+byte hardwareConfig = COMMON_ANODE; // 改为共阳极数码管
+
+int numToShow = 0;
+int delaycount = 0;
+
+void setup() {
+  sevseg.begin(hardwareConfig, numDigits, digitPins, segmentPins); //初始化数码管
+}
+
+void loop() {
+
+  delaycount++;
+  if (delaycount  == 1000) { //通过变量自加来达到延时效果，如果使用delay函数则会打断数码管显示
+    delaycount = 0;
+    numToShow++;
+  }
+
+  if (numToShow > 9999)
+  {
+    numToShow = 0;
+  }
+  
+  sevseg.setNumber(numToShow, -1); //设置要显示的数据，不显示小数点
+  sevseg.refreshDisplay(); // 必须重复运行刷新数码管显示
+
+}
+
+![Arduino digital Tube Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232537_73_348.png)
+
+![Arduino Digital Tube](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232610_74_348.jpg)
