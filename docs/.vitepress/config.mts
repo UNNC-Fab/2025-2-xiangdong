@@ -20,7 +20,8 @@ export default defineConfig({
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'OpenSource-LIcense', link: '/OpenSource-LIcense' },
           { text: 'NVIDIA', link: '/NVIDIA' },
-          { text: 'Arduino', link: '/Arduino' }
+          { text: 'Arduino', link: '/Arduino' },
+          {text: 'Fusion 360', link: '/Fusion-360' }
         ]
       }
     ],
