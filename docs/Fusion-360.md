@@ -1,6 +1,26 @@
 #   Assignments of Fusion 360
 
-##  Computer add designer
+##  Computer aid designer
+
+##  Fusion 360 3D Model
+
+![The first model established in the software fusion 360 is this bench vise base](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/e7d97c71622eb2e5c919e2cd375ee4d7.png)
+
+##  Design History
+
+##  Paremeters
+
+![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1.png)
+
+![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2.png)
+
+##
+
+##
+
+##  Engineer Drawing of Component
+
+![Follwing the standard of the Engineer Drawing paints the chart](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2188efa4afec71f09f7656da6c50d443.png)
 
 ## The introduction of the other CAD application
 
@@ -16,8 +36,13 @@
 
 ####    Learn more about: 
 [Onshape](https://reviews.api.gartner.com/reviews/market/cad-software),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+
 [SolidWorks](https://reviews.api.gartner.com/reviews/market/cad-software),(https://www.jiandaoyun.com/blog/article/439922/)
+
 [FreeCAD/Ondel](https://wiki.umiacs.umd.edu/sandbox/index.php/CAD_Software),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+
 [Blender](https://blogs.reed.edu/digital-fabs/3d-modeling-and-cad/),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+
 [Rhino](https://www.baidu.com/link?url=MlsF-HLTOgJF5nvWFYVWWtveZFveoul05uizceSsrTpDV6GMeAcjaGYfMpVrZAct&wd=&eqid=acb50b5201b92ce30000000469170484)
+
 [Shapr3D](https://www.baidu.com/link?url=AtMeeOKfSoInewNyBSVUyt9M1G4k2OuFCBAHQCgcVbb5Sl-zcVzB4XfC3Derzsaz&wd=&eqid=fccbfd5d01789c1b00000004691703ae)
