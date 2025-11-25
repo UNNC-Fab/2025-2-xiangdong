@@ -21,7 +21,8 @@ export default defineConfig({
           { text: 'OpenSource-LIcense', link: '/OpenSource-LIcense' },
           { text: 'NVIDIA', link: '/NVIDIA' },
           { text: 'Arduino', link: '/Arduino' },
-          {text: 'Fusion 360', link: '/Fusion-360' }
+          { text: 'Fusion 360', link: '/Fusion-360' },
+          { text: '3D Printer', link: '/3D-Printer' }
         ]
       }
     ],
