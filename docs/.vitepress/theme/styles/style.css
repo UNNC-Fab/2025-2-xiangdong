@@ -1,0 +1,29 @@
+/* 基础样式入口，用于被 theme/styles/index.ts 引用 */
+
+/* 如果你保留了 variables.css，则引入它 */
+@import './variables.css';
+
+:root {
+  /* 兜底变量（如果 variables.css 未被加载） */
+  --brand-color: #646cff;
+  --transition-normal: 0.3s;
+}
+
+/* 基础优化 */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* 动画类，用于 IntersectionObserver 触发 */
+.will-animate {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity var(--transition-normal) ease, transform var(--transition-normal) ease;
+}
+
+.animate-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* 链接样式示例 */
+.vp-doc a { color: var(--brand-color); transition: color 0.2s; }
+.vp-doc a:hover { color: #535bf2; }

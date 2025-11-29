@@ -1,0 +1,278 @@
+/* .vitepress/theme/style.css */
+
+/* 基础变量定义 */
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+  --vp-c-brand-lighter: #9499ff;
+  --vp-c-brand-dark: #535bf2;
+  --vp-c-brand-darker: #454ce1;
+  
+  /* 渐变文字效果 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #bd34fe 30%, #41d1ff);
+  
+  /* 字体 */
+  --vp-font-family-base: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', Consolas, Monaco, monospace;
+}
+
+/* 首页英雄区域动画 */
+.VPHomeHero .name {
+  background: linear-gradient(135deg, #bd34fe 30%, #41d1ff 70%, #ff6b6b);
+  background-size: 200% 200%;
+  animation: gradientShift 6s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.VPHomeHero .text {
+  opacity: 0;
+  animation: fadeInUp 1s ease 0.5s forwards;
+}
+
+.VPHomeHero .tagline {
+  opacity: 0;
+  animation: fadeInUp 1s ease 1s forwards;
+}
+
+.VPHomeHero .actions {
+  opacity: 0;
+  animation: fadeInUp 1s ease 1.5s forwards;
+}
+
+/* 导航栏动画 */
+.VPNav {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s ease;
+}
+
+.dark .VPNav {
+  background: rgba(10, 10, 20, 0.8) !important;
+}
+
+.VPNavBarMenuLink {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.VPNavBarMenuLink::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--vp-c-brand);
+  transition: width 0.3s ease;
+}
+
+.VPNavBarMenuLink:hover::after,
+.VPNavBarMenuLink.active::after {
+  width: 100%;
+}
+
+/* 按钮动画 */
+.VPButton {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.VPButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(100, 108, 255, 0.3);
+}
+
+.VPButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.VPButton:hover::before {
+  left: 100%;
+}
+
+/* 特色卡片动画 */
+.VPFeature {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.VPFeature::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(100, 108, 255, 0.1), transparent);
+  transition: left 0.6s;
+}
+
+.VPFeature:hover::before {
+  left: 100%;
+}
+
+.VPFeature:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 20px 40px rgba(100, 108, 255, 0.15);
+}
+
+/* 侧边栏动画 */
+.VPSidebar {
+  backdrop-filter: blur(10px);
+}
+
+.VPSidebarItem {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.VPSidebarItem:hover {
+  background: rgba(100, 108, 255, 0.1);
+  transform: translateX(8px);
+}
+
+.VPSidebarItem.level-0 {
+  border-left: 3px solid transparent;
+}
+
+.VPSidebarItem.level-0.active {
+  border-left-color: var(--vp-c-brand);
+}
+
+/* 代码块动画 */
+.vp-doc div[class*='language-'] {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.vp-doc div[class*='language-']::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  transition: left 0.8s;
+}
+
+.vp-doc div[class*='language-']:hover::before {
+  left: 100%;
+}
+
+.vp-doc div[class*='language-']:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-light);
+}
+
+/* 页面内容动画 */
+.vp-doc [class*="vp-doc"] {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.vp-doc h1 {
+  animation: fadeInUp 0.8s ease-out 0.1s both;
+}
+
+.vp-doc h2 {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.vp-doc h3 {
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.vp-doc p {
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+/* 关键帧动画 */
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .VPNav {
+    backdrop-filter: none;
+  }
+  
+  .VPFeature:hover {
+    transform: translateY(-4px) scale(1.01);
+  }
+}
+
+/* 加载动画 */
+#app {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out 0.3s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
