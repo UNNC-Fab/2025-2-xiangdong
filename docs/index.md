@@ -3,61 +3,90 @@ layout: home
 
 hero:
   name: "My Fablab Project"
-  text: "创新 · 创造 · 未来"
-  tagline: 探索数字制造与开源硬件的无限可能
+  text: "Innovation · Creation · Future"
+  tagline: Explore the infinite possibilities of digital manufacturing
   image:
     src: /hero-image.png
     alt: Fablab Project
   actions:
     - theme: brand
-      text: 🚀 开始探索
+      text: 🚀 Explore
       link: /markdown-examples
     - theme: alt
-      text: ⚡ 快速开始
+      text: ⚡ Get Started
       link: /api-examples
 
 features:
   - icon: 🛠️
-    title: 数字制造
-    details: 使用激光切割、3D打印等先进技术将创意变为现实
+    title: Digital Fabrication
+    details: Transform ideas into reality using advanced technologies like laser cutting and 3D printing
   - icon: 🔌
-    title: 开源硬件
-    details: 基于Arduino、Raspberry Pi等平台开发智能设备原型
+    title: Open Source Hardware
+    details: Develop smart device prototypes based on Arduino, Raspberry Pi and other platforms
   - icon: 🤖
-    title: 人工智能
-    details: 集成NVIDIA技术实现计算机视觉和机器学习应用
+    title: Artificial Intelligence
+    details: Integrate NVIDIA technology for computer vision and machine learning applications
   - icon: 📄
-    title: 开源协议
-    details: 了解项目使用的开源许可证和贡献指南
+    title: Open Source Licensing
+    details: Understand the open source licenses and contribution guidelines for our projects
   - icon: 💡
-    title: 创新思维
-    details: 培养解决问题的创新方法和设计思维
+    title: Innovative Thinking
+    details: Cultivate innovative problem-solving methods and design thinking approaches
   - icon: 🌟
-    title: 社区协作
-    details: 加入全球创客社区，分享知识与经验
+    title: Community Collaboration
+    details: Join the global maker community to share knowledge and experiences
 ---
 
 <div class="home-custom">
 
-## 🎯 项目亮点
+## 🎯 Project Highlights
 
 <div class="feature-grid">
   <div class="feature-card">
     <div class="feature-icon">🔥</div>
-    <h3>前沿技术</h3>
-    <p>融合最新数字制造技术与开源硬件平台</p>
+    <h3>Cutting-Edge Technology</h3>
+    <p>Integrating the latest digital fabrication technologies with open source hardware platforms</p>
   </div>
   
   <div class="feature-card">
     <div class="feature-icon">🚀</div>
-    <h3>快速原型</h3>
-    <p>从概念到实物的快速迭代开发流程</p>
+    <h3>Rapid Prototyping</h3>
+    <p>Fast iterative development process from concept to physical product</p>
   </div>
   
   <div class="feature-card">
     <div class="feature-icon">🌍</div>
-    <h3>全球社区</h3>
-    <p>连接全球创客，共享知识资源</p>
+    <h3>Global Community</h3>
+    <p>Connect with makers worldwide and share knowledge resources</p>
+  </div>
+</div>
+
+## 🛠️ Featured Technologies
+
+<div class="tech-grid">
+  <div class="tech-item">
+    <span class="tech-icon">🖨️</span>
+    <span class="tech-name">3D Printing</span>
+  </div>
+  <div class="tech-item">
+    <span class="tech-icon">🔥</span>
+    <span class="tech-name">Laser Cutting</span>
+  </div>
+  <div class="tech-item">
+    <span class="tech-icon">🔌</span>
+    <span class="tech-name">Arduino</span>
+  </div>
+  <div class="tech-item">
+    <span class="tech-icon">🤖</span>
+    <span class="tech-name">NVIDIA</span>
+  </div>
+  <div class="tech-item">
+    <span class="tech-icon">📐</span>
+    <span class="tech-name">Fusion 360</span>
+  </div>
+  <div class="tech-item">
+    <span class="tech-icon">⚡</span>
+    <span class="tech-name">Raspberry Pi</span>
   </div>
 </div>
 
@@ -66,11 +95,13 @@ features:
 <style>
 .home-custom {
   padding: 4rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin: 3rem 0;
 }
@@ -118,6 +149,7 @@ features:
   color: var(--vp-c-brand);
   margin-bottom: 1rem;
   font-size: 1.4rem;
+  font-weight: 600;
 }
 
 .feature-card p {
@@ -126,7 +158,45 @@ features:
   font-size: 1rem;
 }
 
-/* 动画类 */
+/* Technology Grid Styles */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.tech-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.tech-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 10px 25px rgba(100, 108, 255, 0.1);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  display: block;
+}
+
+.tech-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+}
+
+/* Animation Classes */
 .will-animate {
   opacity: 0;
   transform: translateY(30px);
@@ -138,7 +208,7 @@ features:
   transform: translateY(0);
 }
 
-/* 响应式设计 */
+/* Responsive Design */
 @media (max-width: 768px) {
   .home-custom {
     padding: 2rem 1rem;
@@ -152,6 +222,54 @@ features:
   .feature-card {
     padding: 2rem 1.5rem;
   }
+  
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .tech-item {
+    padding: 1.25rem 0.75rem;
+  }
+  
+  .tech-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .tech-item {
+    padding: 1rem 0.5rem;
+  }
+  
+  .tech-icon {
+    font-size: 1.75rem;
+  }
+  
+  .tech-name {
+    font-size: 0.8rem;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.feature-card, .tech-item {
+  animation: fadeInUp 0.6s ease-out;
 }
 </style>
 
@@ -159,7 +277,7 @@ features:
 import { onMounted } from 'vue'
 
 onMounted(() => {
-  // 为自定义元素添加滚动动画
+  // Add scroll animations for custom elements
   const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -173,11 +291,16 @@ onMounted(() => {
     })
   }, observerOptions)
 
-  // 观察所有特性卡片
-  document.querySelectorAll('.feature-card').forEach((card, index) => {
-    card.classList.add('will-animate')
-    card.style.transitionDelay = `${index * 0.1}s`
-    observer.observe(card)
+  // Observe all feature cards and tech items
+  const elementsToAnimate = [
+    ...document.querySelectorAll('.feature-card'),
+    ...document.querySelectorAll('.tech-item')
+  ]
+  
+  elementsToAnimate.forEach((element, index) => {
+    element.classList.add('will-animate')
+    element.style.transitionDelay = `${index * 0.1}s`
+    observer.observe(element)
   })
 })
 </script>
