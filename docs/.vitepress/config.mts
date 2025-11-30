@@ -50,7 +50,9 @@ export default defineConfig({
           { text: '🤖 NVIDIA', link: '/NVIDIA' },
           { text: '🔌 Arduino', link: '/Arduino' },
           { text: '📐 Fusion 360', link: '/Fusion-360' },
-          { text: '⚖️ OpenSource License', link: '/OpenSource-LIcense' }
+          { text: '⚖️ OpenSource License', link: '/OpenSource-LIcense' },
+          { text: '🖨️ 3D Printer', link: '/3D-Printer' },
+          { text: '🔥 Laser Cutter', link: '/Laser-Cutter' }
         ]
       }
     ],
@@ -80,7 +82,9 @@ export default defineConfig({
           { text: '🤖 NVIDIA', link: '/NVIDIA' },
           { text: '🔌 Arduino', link: '/Arduino' },
           { text: '📐 Fusion 360', link: '/Fusion-360' },
-          { text: '⚖️ OpenSource License', link: '/OpenSource-LIcense' }
+          { text: '⚖️ OpenSource License', link: '/OpenSource-LIcense' },
+          { text: '🖨️ 3D Printer', link: '/3D-Printer' },
+          { text: '🔥 Laser Cutter', link: '/Laser-Cutter' }
         ]
       }
     ] as any,

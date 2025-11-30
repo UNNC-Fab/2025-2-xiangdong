@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@vuepress/plugin-icon": "^2.0.0-rc.120",
     "vitepress": "^2.0.0-alpha.12"
   },
   "scripts": {
