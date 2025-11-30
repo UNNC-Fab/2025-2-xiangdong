@@ -35,13 +35,13 @@
 
 
 ####    Learn more about: 
-[Onshape](https://reviews.api.gartner.com/reviews/market/cad-software),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+[Onshape](https://reviews.api.gartner.com/reviews/market/cad-software)
 
-[SolidWorks](https://reviews.api.gartner.com/reviews/market/cad-software),(https://www.jiandaoyun.com/blog/article/439922/)
+[SolidWorks](https://reviews.api.gartner.com/reviews/market/cad-software)
 
-[FreeCAD/Ondel](https://wiki.umiacs.umd.edu/sandbox/index.php/CAD_Software),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+[FreeCAD/Ondel](https://wiki.umiacs.umd.edu/sandbox/index.php/CAD_Software)
 
-[Blender](https://blogs.reed.edu/digital-fabs/3d-modeling-and-cad/),(http://fabacademy.org/2024/labs/skylab/students/eka-prawira/assignments/week02/other-softwares/)
+[Blender](https://blogs.reed.edu/digital-fabs/3d-modeling-and-cad/)
 
 [Rhino](https://www.baidu.com/link?url=MlsF-HLTOgJF5nvWFYVWWtveZFveoul05uizceSsrTpDV6GMeAcjaGYfMpVrZAct&wd=&eqid=acb50b5201b92ce30000000469170484)
 
