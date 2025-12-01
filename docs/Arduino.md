@@ -93,7 +93,7 @@ Its applications are almost endless. Here are some examples:
 
 * Wearable Devices: Light-up clothing, smartwatch prototypes.
 
-![The interface of arduino](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/666.png)
+![The interface of arduino](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8431f9bb3182701e54667fb3e1bddf78.png)
 
 
 ## INPUT & OUTPUT PROJECTS
