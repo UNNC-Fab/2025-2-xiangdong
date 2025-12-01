@@ -54,7 +54,9 @@ The theoretical foundation behind it primarily stems from Jungian analytical psy
 3.  **Connecting the Conscious and the Unconscious:** Through the act of creating with their hands in the sand, a bridge is built between the conscious and the unconscious. Repressed complexes and unrealized potentials can surface and integrate within the sandtray.
 4.  **Self-Healing:** Within the safe and protected space, the process of individuation (becoming one's complete self) is activated. By constructing and adjusting the sandtray scenes, the client is essentially engaging in an internal process of self-sorting and healing.
 
-### 1.Licheepi
+### 1.Licheepi     
+                    
+![Licheppi](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2-1%20(1).png)
 
 "LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost.
 

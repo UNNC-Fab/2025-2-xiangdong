@@ -15,9 +15,16 @@ Learn and use the sofrware: Bambu Studio
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-1.png)
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(1).png)
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).png)
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).jpg)
+
+#### Printing of standard parts for testing
+
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(3).jpg)
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(3).jpg)
+
+#### Make simple models by oneself and print them
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).jpg)
+
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/f016352c50980907fd1cc002ca305135-ezgif.com-video-to-gif-converter.gif)
 
 ### The Flow of 3D Printer

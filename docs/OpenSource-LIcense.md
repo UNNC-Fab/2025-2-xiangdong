@@ -1,6 +1,6 @@
 # Different Of  license
 
-The three core terms of the BSD3 license
+The three core terms of the BSD3 license                            ![BSD3](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2-1%20(2).png)
 
 ##  Three   Clause
 
