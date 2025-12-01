@@ -101,7 +101,8 @@ Its applications are almost endless. Here are some examples:
 ####  Arduino Smoke Sensor
 
 My code for the Arduino project will be shown below with commentation:
-'''
+
+```
 /*
    MQ-2烟雾传感器的使用
 */
@@ -130,8 +131,7 @@ void loop()
   }
   delay(1000);
 }
-
-'''
+```
 
 ![Arduino Smoke Sensor Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110225737_72_348.png)
 
@@ -142,6 +142,7 @@ void loop()
 
 My code for the Arduino project will be shown below with commentation:
 
+```
 /*
  * SevSegFour
  * 驱动四位数码管显示0到9999
@@ -179,6 +180,7 @@ void loop() {
   sevseg.refreshDisplay(); // 必须重复运行刷新数码管显示
 
 }
+```
 
 ![Arduino digital Tube Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232537_73_348.png)
 

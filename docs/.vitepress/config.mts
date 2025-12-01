@@ -79,6 +79,7 @@ export default defineConfig({
         collapsible: true,
         collapsed: false,
         items: [
+          { text: 'Web Construction', link: '/Web-Construction' },
           { text: '🤖 NVIDIA', link: '/NVIDIA' },
           { text: '🔌 Arduino', link: '/Arduino' },
           { text: '📐 Fusion 360', link: '/Fusion-360' },

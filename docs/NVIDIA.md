@@ -1,5 +1,6 @@
 # Nvidia's development voice and development environment  
-'''md
+
+```
 ##  Core development language
 
 1.  C/C++ : The most core and fundamental programming language. It is used for writing high-performance CUDA core functions and is the preferred choice for drivers, high-performance computing, and low-level optimization.
@@ -29,6 +30,6 @@
 :TensorRT: An SDK for high-performance deep learning inference.
 
 In summary, NVIDIA's development mainly focuses on C/C++ and Python. On the CUDA foundation platform, it uses tools such as Nsight for development and debugging, and selects corresponding SDKS based on different fields (HPC, AI, edge).
-'''
+```
 
 Learn more about the [CUDA](https://www.nvidia.com/zh-tw/technologies/cuda-x/)
