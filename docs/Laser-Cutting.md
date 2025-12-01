@@ -65,5 +65,10 @@ Thickness Limitations: Cutting capability decreases for very thick materials, re
 
 ![What power and speed of laser is needed to cut through standard acrylic sheets](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/222.png)
 
+### Operation process and icon of laser cutting machine
+
+![Flow of laser cutting](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/97a129d53d452fce702129adcbf77519-ezgif.com-video-to-gif-converter.gif)
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(2).jpg)
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(2).jpg)
