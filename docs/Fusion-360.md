@@ -2,6 +2,8 @@
 
 ##  Computer aid designer
 
+Computer-Aided Design (CAD) refers to the technology that utilizes computer software and hardware systems to assist engineers, architects, designers, and other professionals in undertaking the design, analysis, modification, optimization, and documentation of products, projects, or buildings.
+
 ##  Fusion 360 3D Model
 
 ![The first model established in the software fusion 360 is this bench vise base](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/e7d97c71622eb2e5c919e2cd375ee4d7.png)
@@ -13,8 +15,6 @@
 ![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1.png)
 
 ![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2.png)
-
-##
 
 ##
 
