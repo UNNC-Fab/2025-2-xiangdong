@@ -6,7 +6,7 @@ hero:
   text: "Innovation · Creation · Future"
   tagline: Explore the infinite possibilities of digital manufacturing
   image:
-    src: /hero-image.png
+    src: /logo-dark.png
     alt: Fablab Project
   actions:
     - theme: brand
