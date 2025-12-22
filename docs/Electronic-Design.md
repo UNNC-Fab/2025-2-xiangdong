@@ -54,6 +54,7 @@ Components are the "inhabitants" and "functional units" on a PCBA.
 
 U=I*R
 P=U*I
+
 ### Design simple PCB board
 
 ![SEKTCH OF PCB](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3%20(2).png)

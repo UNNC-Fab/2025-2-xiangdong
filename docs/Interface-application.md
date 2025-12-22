@@ -32,6 +32,8 @@ Its ideas and core library have given rise to powerful derivative projects:
 
 p5.js[https://p5js.org/]: Transplanting the concept of Processing to JavaScript, allowing you to directly create in web browsers and easily integrate web elements (HTML, audio and video, etc.), it is currently one of the most active communities.
 
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/5.4.png)
+
 Processing for Android: Used for developing Android mobile applications.
 
 Processing.py: Creating Processing using Python syntax.
