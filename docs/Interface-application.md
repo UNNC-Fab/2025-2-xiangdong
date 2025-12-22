@@ -41,3 +41,8 @@ Strong community and teaching resources
 It has a very active and friendly international community that shares a vast amount of tutorials, sample codes and works.
 
 It is the preferred tool for many art and design colleges and introductory programming courses around the world.
+
+
+The interface of the processing
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/4.111.png)
