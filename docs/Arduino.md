@@ -11,7 +11,8 @@
 | Quectel PI-SC200U| Integrated 4G network, comprehensive interfaces, industrial grade | Qualcomm 8-core processor, 4 GB + 64 GB storage, supports LTE Cat 4 | Mobile medical devices, industrial PDA, smart retail needing cellular connectivity |
 
 ##  Run water light program
-```md
+
+```
 int val;//定义变量val
 int BASE = 2 ;  //第一颗LED 接的I/O脚
 int NUM = 4;   //LED 的个数
@@ -38,21 +39,6 @@ void loop()
 ```
 
 ![RUN WATER LIGHT](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8c0f8230c2fe83d4e1c89e2bcc4715ba.jpg)
-
-### Sandplay Therapy Projects
-
-Definition of the Sandplay Therapy:
-
-The core of the psychological sand table is "a free and protected space". In this space, visitors (whether children or adults) do not need to express themselves through complex language. Instead, they use sand, water and thousands of small objects (such as people, animals, buildings, trees, symbols, etc.) to create a "world" of their own under the accompaniment of a counselor.
-
-### How Does Sandplay Therapy Work?
-
-The theoretical foundation behind it primarily stems from Jungian analytical psychology and the concept of the "self-healing tendency of the psyche."
-
-1.  **Non-Verbal Communication:** It bypasses the defenses and limitations of language. It is particularly suitable for children who are not adept at verbal expression, individuals who have experienced trauma and find it difficult to talk about it, or adults facing challenges in verbal communication.
-2.  **Symbolism and Projection:** Every object and every scene in the sandtray is a symbolic expression of the client's inner emotions, conflicts, desires, and various aspects of their personality. The client **projects** their unconscious content into the sandtray world.
-3.  **Connecting the Conscious and the Unconscious:** Through the act of creating with their hands in the sand, a bridge is built between the conscious and the unconscious. Repressed complexes and unrealized potentials can surface and integrate within the sandtray.
-4.  **Self-Healing:** Within the safe and protected space, the process of individuation (becoming one's complete self) is activated. By constructing and adjusting the sandtray scenes, the client is essentially engaging in an internal process of self-sorting and healing.
 
 ### 1.Licheepi     
                     
