@@ -2,11 +2,11 @@
 
 PCB serves as the carrier for electronic components and the provider of electrical connections. We can imagine it as the "foundation and road system" of a city.
 
-### 3. Some Common Components
+## Some Common Components
 
 Components are the "inhabitants" and "functional units" on a PCBA.
 
-#### **3.1 Passive Components**
+### **3.1 Passive Components**
 *   **Resistor**
     *   **Symbol**: `-□-`
     *   **Function**: Limits current, divides voltage, shunts current. Unit is Ohm (Ω).
@@ -22,7 +22,7 @@ Components are the "inhabitants" and "functional units" on a PCBA.
     *   **Function**: Stores magnetic energy, blocks AC while allowing DC, filters. Unit is Henry (H).
     *   **Common Types**: Wire-wound Inductor, Chip Power Inductor (SMD), Ferrite Bead (suppresses high-frequency noise).
 
-#### **3.2 Active Components**
+### **3.2 Active Components**
 *   **Diode**
     *   **Symbol**: `-|>|-` (Arrow indicates conventional current flow in forward bias)
     *   **Function**: **Unidirectional current flow**. Used for rectification, voltage regulation, protection, and light emission (LED).
@@ -44,24 +44,37 @@ Components are the "inhabitants" and "functional units" on a PCBA.
         *   **Operational Amplifier (Op-amp)**: Used for analog signal amplification and processing.
         *   **Logic Gates**: Implement basic Boolean functions (AND, OR, NOT, etc.).
 
-#### **3.3 Other Important Components**
+### **3.3 Other Important Components**
 *   **Connectors**: Used for board-to-board or board-to-peripheral (e.g., power, USB) connections. Examples: Pin headers, Sockets, USB ports, RJ45 Ethernet jacks.
 *   **Crystal Oscillator**: Provides a precise clock signal, the "heartbeat" for timing in circuits.
 *   **Sensors**: Convert physical quantities (e.g., temperature, humidity, light, pressure) into electrical signals. Examples: Temperature sensor, Accelerometer.
 *   **Relay**: An electromechanical switch that uses a small current to control the switching of a much larger current.
 
-###   Calculation
+##  Calculation
 
 U=I*R
 P=U*I
 
-### Design simple PCB board
+##  The pcb board is drawn by using the Jialichuang platform
 
-![SEKTCH OF PCB](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3%20(2).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/5%20(1).png)
 
-![PCB](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3%20(3).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/5%20(2).png)
 
-![2D PCB BOARD](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3%20(4).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/5（3）.png)
 
-![3D PCB BOARD](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3%20(1).png)
+##  Design simple PCB board
+SEKTCH OF PCB
+![SEKTCH OF PCB](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/11%20(1).png)
 
+PCB
+![PCB]![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/11%20(2).png)
+
+2D PCB BOARD
+![2D PCB BOARD](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/313.png)
+
+3D PCB BOARD
+![3D PCB BOARD](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/11%20(3).png)
+
+Physical pcb
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/11%20(1)(1).jpg)
