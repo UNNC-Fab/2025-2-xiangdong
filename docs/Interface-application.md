@@ -1,6 +1,6 @@
 #    Useing the Processing to construct the interface application?
 
-###  What is the processing?
+##  What is the processing?
 
 Processing is an open-source programming language and integrated development environment specifically created for electronic art, visual design, creative programming, and graphic education.
 
@@ -8,7 +8,7 @@ Its core objective is to make programming intuitive and easy to get started with
 
 In simple terms, Processing makes it very easy to create visual art, animation and interactive works with code.
 
-### The main feature and core
+## The main feature and core
 
 Main features and core ideas:
 
@@ -48,3 +48,21 @@ It is the preferred tool for many art and design colleges and introductory progr
 The interface of the processing
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/4.111.png)
+
+##  processing example
+
+```
+void setup() {
+  size(400, 400); // 创建一个400x400像素的画布
+  background(0); // 背景设为黑色
+}
+
+void draw() {
+  fill(random(255), random(255), random(255), 100); // 随机颜色，半透明
+  noStroke(); // 不要边框
+  ellipse(mouseX, mouseY, 30, 30); // 在鼠标位置画一个圆
+}
+```
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/3213.png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/f016352c50980907fd1cc002ca305135-ezgif.com-video-to-gif-converter.gif)
