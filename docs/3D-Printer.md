@@ -18,6 +18,14 @@ Learn and use the sofrware: Bambu Studio
 parameter setting
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/10%20(2).png)
 
+3D printer setting
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/113.png)
+
+Then choosing the start icon to print model
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1333.png)
+
 #### Printing of standard parts for testing
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(3).jpg)
@@ -25,8 +33,7 @@ parameter setting
 
 #### Make simple models by oneself and print them
 
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).jpg)
+Constructing the model and history of the model
 
 
 
-### The Flow of 3D Printer
