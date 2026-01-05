@@ -10,39 +10,47 @@ Computer-Aided Design (CAD) refers to the technology that utilizes computer soft
 
 ##  Design History
 
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/16-ezgif.com-video-to-gif-converter.gif)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/162-ezgif.com-video-to-gif-converter.gif)
+
+##  Gif of fusion
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/161-ezgif.com-video-to-gif-converter.gif)
+
+
 ##  Paremeters
 
 ![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1.png)
 
 ![Paremeters for component](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2.png)
 
-##
+##  plugin
+
+Voronoi
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/9%20(1).jpg)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/9%20(1).png)
+
+The Voronoi plugin can customize the shape of the convex sculpture
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/9%20(2).png)
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/164-ezgif.com-video-to-gif-converter.gif)
 
 ##  Engineer Drawing of Component
 
-![Follwing the standard of the Engineer Drawing paints the chart](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2188efa4afec71f09f7656da6c50d443.png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/122131.png)
 
 ## The introduction of the other CAD application
 
 | Software Name | Core Features | Platform | Licensing |
 | :--- | :--- | :--- | :--- |
-| **Onshape** | Fully cloud-based, excellent collaborative design, parametric modeling | Browser, Mobile | Subscription (free tier available) |
-| **SolidWorks** | Industry benchmark in mechanical design, powerful features, excellent simulation analysis | Windows | Commercial license (higher cost) |
-| **FreeCAD / Ondsel** | Open source & free, parametric modeling, Ondsel improves UX based on FreeCAD | Windows, macOS, Linux | Open source free / Free |
-| **Blender** | Open source & free, excels in surface modeling, artistic sculpting & creative design | Windows, macOS, Linux | Open source free |
-| **Rhino** | **Powerful NURBS surface modeling**, highly regarded in industrial design & architecture | Windows, macOS | Commercial license |
-| **Shapr3D** | Designed for iPad & Mac, works offline, interoperable with desktop CAD | iPadOS, macOS, Windows | Free basic version / Subscription |
+| [Onshape](https://reviews.api.gartner.com/reviews/market/cad-software)| Fully cloud-based, excellent collaborative design, parametric modeling | Browser, Mobile | Subscription (free tier available) |
+| [SolidWorks](https://reviews.api.gartner.com/reviews/market/cad-software)| Industry benchmark in mechanical design, powerful features, excellent simulation analysis | Windows | Commercial license (higher cost) |
+| [FreeCAD](https://wiki.umiacs.umd.edu/sandbox/index.php/CAD_Software)| Open source & free, parametric modeling, Ondsel improves UX based on FreeCAD | Windows, macOS, Linux | Open source free / Free |
+| [Blender](https://blogs.reed.edu/digital-fabs/3d-modeling-and-cad/) | Open source & free, excels in surface modeling, artistic sculpting & creative design | Windows, macOS, Linux | Open source free |
+| [Rhino](https://www.baidu.com/link?url=MlsF-HLTOgJF5nvWFYVWWtveZFveoul05uizceSsrTpDV6GMeAcjaGYfMpVrZAct&wd=&eqid=acb50b5201b92ce30000000469170484)| Powerful NURBS surface modeling, highly regarded in industrial design & architecture | Windows, macOS | Commercial license |
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8%20(2).png) ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8%20(5).png) ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8%20(4).png) ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8%20(3).png) ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8%20(1).png)
 
 
-####    Learn more about: 
-[Onshape](https://reviews.api.gartner.com/reviews/market/cad-software)
-
-[SolidWorks](https://reviews.api.gartner.com/reviews/market/cad-software)
-
-[FreeCAD/Ondel](https://wiki.umiacs.umd.edu/sandbox/index.php/CAD_Software)
-
-[Blender](https://blogs.reed.edu/digital-fabs/3d-modeling-and-cad/)
-
-[Rhino](https://www.baidu.com/link?url=MlsF-HLTOgJF5nvWFYVWWtveZFveoul05uizceSsrTpDV6GMeAcjaGYfMpVrZAct&wd=&eqid=acb50b5201b92ce30000000469170484)
-
-[Shapr3D](https://www.baidu.com/link?url=AtMeeOKfSoInewNyBSVUyt9M1G4k2OuFCBAHQCgcVbb5Sl-zcVzB4XfC3Derzsaz&wd=&eqid=fccbfd5d01789c1b00000004691703ae)

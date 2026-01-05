@@ -9,41 +9,19 @@
 | NodeMCU Lua V3   | Ultra-low cost, Wi-Fi networking, entry-level IoT   | ESP8266 chip, supports Lua scripting                | Smart home, Wi-Fi remote control, sensor data acquisition    |
 | GD32VW553        | Domestic RISC-V architecture, supports Wi-Fi 6     | Goodix (JiaLiChuang) GD32VW553 chip, RISC-V core    | IoT development, projects requiring communication performance & domestic chips |
 
-##  Run water light program
+![NanoPi R76S](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/7%20(2).jpg)![LCPI Allwinner H3](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/7%20(4).jpg)
+![NodeMCU Lua V3 ](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/7%20(2).jpg)![GD32VW553](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/7%20(1).jpg)
 
-```
-int val;//定义变量val
-int BASE = 2 ;  //第一颗LED 接的I/O脚
-int NUM = 4;   //LED 的个数
-void setup()
-{
-   for (int i = BASE; i < BASE + NUM; i ++) 
-   {
-     pinMode(i, OUTPUT);   //设定数字I/O脚为输出
-   }
-}
-void loop()
-{
-   for (int i = BASE; i < BASE + NUM; i ++) 
-   {
-     digitalWrite(i, LOW);    //设定数字I/O脚为输出为"低"，即逐渐关灯
-     delay(200);        //延迟
-   }
-   for (int i = BASE; i < BASE + NUM; i ++) 
-   {
-     digitalWrite(i, HIGH);    //设定数字I/O脚为输出为"高"，即逐渐开灯
-     	   delay(200);        //延迟
-   }
-}
-```
 
-![RUN WATER LIGHT](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8c0f8230c2fe83d4e1c89e2bcc4715ba.jpg)
+##  Specific examples of other open-source hardware
 
-### 1.Licheepi     
+### 1.[Licheepi](https://classic.sipeed.com/licheepi4a)
                     
 ![Licheppi](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2-1%20(1).png)
 
 "LicheePi" is an embedded development board launched by Sipeed (Silicon Speed Technology), featuring open source and cost-effectiveness as its main characteristics. Its goal is to enable developers and students to learn and practice Linux system development, embedded system design, and Internet of Things applications at a relatively low cost.
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/12333.png)
 
 ### 2.Core features and application scenarios
 
@@ -80,12 +58,50 @@ Its applications are almost endless. Here are some examples:
 
 * Wearable Devices: Light-up clothing, smartwatch prototypes.
 
-![The interface of arduino](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8431f9bb3182701e54667fb3e1bddf78.png)
 
+##  Arduino IDE
+
+The interface of arduino
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8431f9bb3182701e54667fb3e1bddf78.png)
+
+##  Run water light program
+
+```
+int val;//定义变量val
+int BASE = 2 ;  //第一颗LED 接的I/O脚
+int NUM = 4;   //LED 的个数
+void setup()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     pinMode(i, OUTPUT);   //设定数字I/O脚为输出
+   }
+}
+void loop()
+{
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, LOW);    //设定数字I/O脚为输出为"低"，即逐渐关灯
+     delay(200);        //延迟
+   }
+   for (int i = BASE; i < BASE + NUM; i ++) 
+   {
+     digitalWrite(i, HIGH);    //设定数字I/O脚为输出为"高"，即逐渐开灯
+     	   delay(200);        //延迟
+   }
+}
+```
+
+![RUN WATER LIGHT](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/8c0f8230c2fe83d4e1c89e2bcc4715ba.jpg)
 
 ## INPUT & OUTPUT PROJECTS
 
 ####  Arduino Smoke Sensor
+
+![Arduino Smoke Sensor Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110225737_72_348.png)
+
+![Arduino Smoke Sensor](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232611_75_348.jpg)
 
 My code for the Arduino project will be shown below with commentation:
 
@@ -120,12 +136,11 @@ void loop()
 }
 ```
 
-![Arduino Smoke Sensor Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110225737_72_348.png)
-
-![Arduino Smoke Sensor](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232611_75_348.jpg)
-
-
 ####  Arduino Digital Tube
+
+![Arduino digital Tube Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232537_73_348.png)
+
+![Arduino Digital Tube](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232610_74_348.jpg)
 
 My code for the Arduino project will be shown below with commentation:
 
@@ -169,6 +184,3 @@ void loop() {
 }
 ```
 
-![Arduino digital Tube Code](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232537_73_348.png)
-
-![Arduino Digital Tube](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/微信图片_20251110232610_74_348.jpg)
