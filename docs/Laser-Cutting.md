@@ -67,8 +67,6 @@ Thickness Limitations: Cutting capability decreases for very thick materials, re
 
 ### Operation process and icon of laser cutting machine
 
-![Flow of laser cutting](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/97a129d53d452fce702129adcbf77519-ezgif.com-video-to-gif-converter.gif)
-
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(2).jpg)
-
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(2).jpg)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(2)(1).jpg)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(1)(1).jpg)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/93d023f4d72bc1b0e085623867092ee4-ezgif.com-video-to-gif-converter.gif)

@@ -33,7 +33,12 @@ Then choosing the start icon to print model
 
 #### Make simple models by oneself and print them
 
-Constructing the model and history of the model
+The flow of Constructing the model and history of the model
 
 
-
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/777%20(1).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2026-01-0604-54-53-ezgif.com-video-to-gif-converter.gif)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/777%20(4).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/777%20(3).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/777%20(2).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/71efd2bbac90a4c241321b065ac1504d-ezgif.com-video-to-gif-converter.gif)
