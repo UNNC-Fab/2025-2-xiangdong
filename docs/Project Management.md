@@ -74,11 +74,21 @@ npm run docs:dev
 
 ### Web page setting
 
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6666777.png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(1).png)
+
+### Local setting
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(4).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(5).png)
 
 ### Deploy to GitHub
 
+First thing is to create a new file called github\workflows ,then create a new file named deploy.yml
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6.9.png)
+
+Then proceed to add following code into deploy.yml
 
 ```
 name: Deploy VitePress site to Pages
@@ -140,5 +150,18 @@ jobs:
 
 ##  Picgo
 
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/33333.png)
+
 ### The setting of Picgo
 
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(6).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(7).png)
+
+## FInally
+
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6（2）.png)
+
+
+##  Extra thing about the web style
+
+If you want to change the style about the web, you can touch this and learn (https://vitepress.dev/zh/guide/custom-theme).
