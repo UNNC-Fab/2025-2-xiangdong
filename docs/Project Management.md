@@ -8,8 +8,9 @@ To create our webpage, we will utilize the following tools(Click the tool name t
 [Github.Desktop]https://desktop.github.com/ :Simplifies the process of transferring code from a local environment to GitHub.
 [Node.js]https://nodejs.org/zh-cn :Establishes the necessary development environment.
 [VSCode]https://code.visualstudio.com/ :The platform for writing the project。
-[Picgo]https://xzfw30.xiazaifuwu.cn/side2421.html?bd_vid=8737435306085234622 :Image upload service.
+[Picgo] :Image upload service.
 
+<a href=https://xzfw30.xiazaifuwu.cn/side2421.html?bd_vid=8737435306085234622>Picgo</a>
 
 #   Goal
 
