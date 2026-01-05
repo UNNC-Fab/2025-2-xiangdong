@@ -10,11 +10,13 @@ Traditional Manufacturing (Subtractive Manufacturing): For example, sculpting. Y
 3D Printing (Additive Manufacturing): For example, building a house with bricks. You have a design blueprint, and then you start from the foundation, laying bricks layer by layer until the entire house is constructed. 3D printing works in the same way, creating an object from scratch by adding material layer upon layer.
 
 ### Use slice software to setting parameter;
+
 Learn and use the sofrware: Bambu Studio
 
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-1.png)
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(1).png)
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).png)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/10%20(1).png)
+
+parameter setting
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/10%20(2).png)
 
 #### Printing of standard parts for testing
 
@@ -25,7 +27,6 @@ Learn and use the sofrware: Bambu Studio
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-3%20(1).jpg)
 
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/f016352c50980907fd1cc002ca305135-ezgif.com-video-to-gif-converter.gif)
+
 
 ### The Flow of 3D Printer
-![The basic principle is the following:](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/How-3D-Printing-Works--1030x309.png)
