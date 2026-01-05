@@ -69,4 +69,4 @@ Thickness Limitations: Cutting capability decreases for very thick materials, re
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(2)(1).jpg)
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/1-2%20(1)(1).jpg)
-![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/93d023f4d72bc1b0e085623867092ee4-ezgif.com-video-to-gif-converter.gif)
+![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/2aaff2b339193067f5eaef93b380439a-ezgif.com-video-to-gif-converter.gif)
