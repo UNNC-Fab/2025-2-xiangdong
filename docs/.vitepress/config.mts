@@ -18,7 +18,7 @@ const ALL_TOOLS = [
 ]
 
 export default defineConfig({
-  title: "My Fablab Project",
+  title: "UNNC-FABLAB 2025-2",
   description: "A VitePress Site",
   base: '/2025-2-xiangdong/',
 
@@ -32,7 +32,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Tools',
+        text: 'Work',
         items: ALL_TOOLS // 直接使用定义好的工具列表
       }
     ],

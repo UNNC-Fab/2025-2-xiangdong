@@ -2,8 +2,7 @@
 layout: home
 
 hero:
-  name: "My Fablab Project"
-  text: "Innovation · Creation · Future"
+  name: "UNNC-FABLAB 2025-2"
   tagline: Explore the infinite possibilities of digital manufacturing
   image:
     src: /logo-dark.png
