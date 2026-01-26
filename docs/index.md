@@ -23,7 +23,6 @@ features:
 ---
 
 <style>
-/* 设置英雄区域为背景图 */
 .home-hero {
   position: relative;
   background-image: url('/logo-dark.png');
