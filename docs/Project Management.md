@@ -9,7 +9,7 @@ To create our webpage, we will utilize the following tools(Click the tool name t
 *   **[Node.js](https://nodejs.org/zh-cn)**：Establishes the necessary development environment.
 *   **[VSCode](https://code.visualstudio.com/)**：The platform for writing the project。
 *   **[Picgo](https://xzfw30.xiazaifuwu.cn/side2421.html?bd_vid=8737435306085234622)**：Image upload service.
-
+*   **[Git](https://git-scm.com/install/windows)**:
 
 ##  Set up the website with the vitepress
 
@@ -60,7 +60,7 @@ npx vitepress init
 └  Done! Now run pnpm run docs:dev and start writing.
 ```
 
-##  File structure
+##  Project Tree
 
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(8).png)
 
