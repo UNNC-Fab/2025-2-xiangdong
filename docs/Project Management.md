@@ -62,6 +62,33 @@ npx vitepress init
 
 ##  Project Tree
 
+```
+docs
+├── .vitepress
+│   ├── cache
+│   ├── config.mts
+│   ├── dist
+│   └── theme
+│       ├── components
+│       │   └── HomeCustomContent.vue
+│       ├── index.ts
+│       └── style.css
+├── 3D-Printer.md
+├── Arduino.md
+├── Electronic-Design.md
+├── Final presentation.md
+├── Fusion-360.md
+├── Interface-application.md
+├── Laser-Cutting.md
+├── Modeling-Casting.md
+├── NVIDIA.md
+├── OpenSource-LIcense.md
+├── PCB-Manufacture.md
+├── Project Management.md
+├── index.md
+└── logo-dark.png
+```
+
 ![](https://raw.githubusercontent.com/RIcardo-H-Dong/2025-10-XiangDong-1/main/img/6%20(8).png)
 
 docs:dev The script will start the local development server with instant hot updates. Run it using the following command:
